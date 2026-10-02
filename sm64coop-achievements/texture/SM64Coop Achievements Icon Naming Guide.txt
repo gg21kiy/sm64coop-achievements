@@ -1,0 +1,182 @@
+================================================================================
+                    SUPER MARIO 64 - ICON & TEXTURE GUIDE
+================================================================================
+
+To ensure your custom achievement and status icons display correctly in the game,
+you must name your image files exactly as shown below (.png format, or converted
+to .tex if your build system requires compiled textures).
+
+--------------------------------------------------------------------------------
+1. POWER STARS (PROGRESSION)
+--------------------------------------------------------------------------------
+- stars_1.png
+  Name the file this way for the achievement awarded upon collecting 1 Power Star.
+
+- stars_3.png
+  Name the file this way for the achievement awarded upon collecting 3 Power Stars.
+
+- stars_8.png
+  Name the file this way for the achievement awarded upon collecting 8 Power Stars.
+
+- stars_10.png
+  Name the file this way for the achievement awarded upon collecting 10 Power Stars.
+
+- stars_12.png
+  Name the file this way for the achievement awarded upon collecting 12 Power Stars.
+
+- stars_30.png
+  Name the file this way for the achievement awarded upon collecting 30 Power Stars.
+
+- stars_31.png
+  Name the file this way for the achievement awarded upon collecting 31 Power Stars.
+
+- stars_50.png
+  Name the file this way for the achievement awarded upon collecting 50 Power Stars.
+
+- stars_70.png
+  Name the file this way for the achievement awarded upon collecting 70 Power Stars (beating the game minimum requirement).
+
+- stars_120.png
+  Name the file this way for the achievement awarded upon collecting all 120 Power Stars (100% completion).
+
+--------------------------------------------------------------------------------
+2. BOSSES
+--------------------------------------------------------------------------------
+- bosses_big_bob.png
+  Name the file this way for defeating King Bob-omb (Big Bob-omb) on top of the mountain.
+
+- bosses_king_whomp.png
+  Name the file this way for defeating the Whomp King at Whomp's Fortress.
+
+- bosses_big_boo.png
+  Name the file this way for defeating Big Boo in Big Boo's Haunt.
+
+- bosses_big_bully.png
+  Name the file this way for defeating Big Bully in Lethal Lava Land.
+
+- bosses_eyerok.png
+  Name the file this way for defeating Eyerok inside the pyramid in Shifting Sand Land.
+
+- bosses_wiggler.png
+  Name the file this way for defeating the enraged Wiggler in Tiny-Huge Island.
+
+- bosses_mr_i.png
+  Name the file this way for defeating the giant Mr. I (Big Mr. I) in Big Boo's Haunt.
+
+--------------------------------------------------------------------------------
+3. BOWSER ENCOUNTERS
+--------------------------------------------------------------------------------
+- bowser_1.png
+  Name the file this way for defeating Bowser in the Dark World (First Bowser fight).
+
+- bowser_2.png
+  Name the file this way for defeating Bowser in the Fire Sea (Second Bowser fight).
+
+- bowser_3.png
+  Name the file this way for defeating Bowser in the Sky and completing the game.
+
+- bowser_3_with_120_stars.png
+  Name the file this way for defeating Bowser in the Sky after collecting all 120 Power Stars.
+
+--------------------------------------------------------------------------------
+4. CAP SWITCHES / POWER-UPS
+--------------------------------------------------------------------------------
+- caps_wing_cap.png
+  Name the file this way for unlocking the Red Switch / Wing Cap.
+
+- caps_metal_cap.png
+  Name the file this way for unlocking the Green Switch / Metal Cap.
+
+- caps_vanish_cap.png
+  Name the file this way for unlocking the Blue Switch / Vanish Cap.
+
+--------------------------------------------------------------------------------
+5. DEATHS & HAZARDS
+--------------------------------------------------------------------------------
+- deaths_standard.png
+  Name the file this way for a standard death caused by running out of health from regular enemies.
+
+- deaths_falling.png
+  Name the file this way for dying from lethal fall damage.
+
+- deaths_drowning.png
+  Name the file this way for drowning underwater after exhausting your breath meter.
+
+- deaths_quicksand.png
+  Name the file this way for sinking and suffocating in quicksand.
+
+- deaths_crushed.png
+  Name the file this way for getting squished or crushed by moving blocks or heavy objects.
+
+- deaths_boss.png
+  Name the file this way for losing a life while fighting any standard stage boss.
+
+- deaths_bowser.png
+  Name the file this way for dying during a Bowser battle arena fight.
+
+--------------------------------------------------------------------------------
+6. EXTRAS & MILESTONES
+--------------------------------------------------------------------------------
+- extras_cake.png
+  Name the file this way for finishing the game and reaching the ending Cake credits scene.
+
+- extras_yoshi.png
+  Name the file this way for meeting Yoshi on the castle roof after reaching 120 stars.
+
+- extras_chain_chomp.png
+  Name the file this way for releasing the Chain Chomp in Bob-omb Battlefield.
+
+- extras_carpet_burn.png
+  Name the file this way for hazards/burns incurred on flying carpets or lava stages.
+
+- extras_jumper.png
+  Name the file this way for milestone stats related to jumping a high number of times.
+
+- extras_runner.png
+  Name the file this way for running distance or continuous sprint milestones.
+
+- extras_swimmer.png
+  Name the file this way for underwater swim distance or duration milestones.
+
+- extras_talker.png
+  Name the file this way for speaking with NPCs, Bob-omb Buddies, and Toads throughout the castle.
+
+- extras_speedrun.png
+  Name the file this way for beating a time trial or achieving a course speedrun goal.
+
+- extras_speedrunner.png
+  Name the file this way for completing an entire speedrun category milestone.
+
+--------------------------------------------------------------------------------
+7. RANKS & GRADES
+--------------------------------------------------------------------------------
+- ranks_splus.png
+  Name the file this way for achieving an S+ Rank (flawless / peak performance).
+
+- ranks_s.png
+  Name the file this way for achieving an S Rank.
+
+- ranks_a.png
+  Name the file this way for achieving an A Rank.
+
+- ranks_b.png
+  Name the file this way for achieving a B Rank.
+
+- ranks_c.png
+  Name the file this way for achieving a C Rank.
+
+- ranks_d.png
+  Name the file this way for achieving a D Rank.
+
+- ranks_e.png
+  Name the file this way for achieving an E Rank.
+
+- ranks_f.png
+  Name the file this way for achieving an F Rank (failure / lowest grade).
+
+--------------------------------------------------------------------------------
+8. SYSTEM / ANTI-CHEAT
+--------------------------------------------------------------------------------
+- cheater.png
+  Name the file this way for detecting enabled cheats, memory modifications, or unauthorized tools.
+================================================================================
