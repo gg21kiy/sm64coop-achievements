@@ -195,7 +195,7 @@ For copyright reasons, **this repository does not ship any icon images**. To get
 Please **only use images you own or have the right to use**.
 
 > [!WARNING]
-> All images must be 64x64
+> All icons must be 64×64 pixels.
 
 ---
 
