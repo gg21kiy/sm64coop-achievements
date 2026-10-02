@@ -1,4 +1,4 @@
-<div align="center"><h1>🏆 SM64 Coop Achievements</h1><h3>Moon64-style achievements for SM64CoopDX</h3><p>
+<div align="center"><h1>🏆 SM64 Coop Achievements</h1><h3>Moon64-style achievements for SM64CoopDX</h3>
   <p>
   <a href="https://github.com/gg21kiy/SM64Coop-Achievements/releases/latest"><img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge" alt="Version"></a>
   <a href="https://github.com/coop-deluxe/sm64coopdx"><img src="https://img.shields.io/badge/SM64CoopDX-Compatible-e52521?style=for-the-badge&logo=nintendo&logoColor=white" alt="SM64CoopDX Compatible"></a>
