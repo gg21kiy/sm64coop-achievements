@@ -7,7 +7,12 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License"></a>
 </p><br><img src="Screenshots/popup.jpg" alt="SM64 Coop Achievements" width="700"><p>
   <em>An achievement system for SM64CoopDX inspired by Moon64.</em>
-</p></div>
+</p>
+
+[📷 Screenshots](https://github.com/gg21kiy/sm64coop-achievements#-screenshots) •
+[📥 Download](https://github.com/gg21kiy/sm64coop-achievements/releases/latest) 
+
+</div>
 
 ---
 
