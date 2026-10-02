@@ -25,7 +25,7 @@ Unlock achievements while you play, see a popup on screen, and check your progre
 
 | Unlock popup | Mod Menu (1/2) | Mod Menu (2/2) | Achievements Menu |
 |---|---|---|---|
-| ![Unlock popup](screenshots/popup.png) | ![Mod Menu 1](screenshots/mod-menu-1.png) | ![Mod Menu 2](screenshots/mod-menu-2.png) | ![Achievements Menu](screenshots/achivements-menu-1.png) | 
+| ![Unlock popup](Screenshots/popup.png) | ![Mod Menu 1](Screenshots/mod-menu-1.png) | ![Mod Menu 2](Screenshots/mod-menu-2.png) | ![Achievements Menu](Screenshots/achivements-menu-1.png) | 
 
 ---
 
