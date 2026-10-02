@@ -1,10 +1,12 @@
-# 🏆 SM64 Coop Achievements
-
-Moon64-style **achievements** for **SM64Coop**.
-
-Unlock achievements while you play, see a popup on screen, and check your progress from an in-game menu. Everything is configurable from the **Mod Menu**.
-
-> ⚠️ **Not affiliated with Nintendo or the Moon64 team.** This is a fan-made mod. Super Mario 64 and all related characters belong to Nintendo.
+<div align="center"><h1>🏆 SM64 Coop Achievements</h1><h3>Moon64-style achievements for SM64CoopDX</h3><p>
+  <p>
+  <a href="https://github.com/gg21kiy/SM64Coop-Achievements/releases/latest"><img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge" alt="Version"></a>
+  <a href="https://github.com/coop-deluxe/sm64coopdx"><img src="https://img.shields.io/badge/SM64CoopDX-Compatible-e52521?style=for-the-badge&logo=nintendo&logoColor=white" alt="SM64CoopDX Compatible"></a>
+  <a href="#-achievements"><img src="https://img.shields.io/badge/Achievements-46-gold?style=for-the-badge" alt="46 Achievements"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License"></a>
+</p><br><img src="Screenshots/popup.jpg" alt="SM64 Coop Achievements" width="700"><p>
+  <em>An achievement system for SM64CoopDX inspired by Moon64.</em>
+</p></div>
 
 ---
 
@@ -48,6 +50,9 @@ Unlock achievements while you play, see a popup on screen, and check your progre
 ## 🎮 How to use
 
 ### Open the achievements menu
+
+> [!WARNING]
+> Currently, the option to open the menu via the controller is not enabled; you can only open the achievements menu with the command /achievements or /achievements menu via chat. 
 
 | Method | How |
 |---|---|
