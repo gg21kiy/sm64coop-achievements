@@ -1,6 +1,7 @@
 <div align="center"><h1>🏆 SM64 Coop Achievements</h1><h3>Moon64-style achievements for SM64CoopDX</h3>
   <p>
   <a href="https://github.com/gg21kiy/SM64Coop-Achievements/releases/latest"><img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge" alt="Version"></a>
+    <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" alt="Lua" />
   <a href="https://github.com/coop-deluxe/sm64coopdx"><img src="https://img.shields.io/badge/SM64CoopDX-Compatible-e52521?style=for-the-badge&logo=nintendo&logoColor=white" alt="SM64CoopDX Compatible"></a>
   <a href="#-achievements"><img src="https://img.shields.io/badge/Achievements-46-gold?style=for-the-badge" alt="46 Achievements"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License"></a>
