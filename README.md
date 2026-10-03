@@ -46,7 +46,7 @@
 2. Put the **folder** (not the zip's parent folder) inside your SM64Coop mods directory:
    - **Windows:** `%appdata%/sm64coopdx/mods/`
    - **Linux / macOS:** `~/.local/share/sm64coopdx/mods/`
-   - **Android:** `Android/data/.../mods/` (depends on your build)
+   - **Android:** `storage/emulated/com.maniscat2.sm64coopdx/mods/` (depends on your build)
 3. Start the game, go to **Mods** and enable **Achievements Mod**.
 4. Join or host a game. You will see a message when the mod loads.
 
