@@ -246,6 +246,6 @@ This project is licensed under the [MIT License](LICENSE). The license covers **
 ## 🙏 Credits
 
 - Idea and style inspired by the achievements of **Moon64**.
-- Built for **SM64Coop**.
+- Built for **SM64CoopDX**.
 - Menu input logic based on the approach used by the **Character Select** mod.
 - Made by [gg21kiy](https://github.com/gg21kiy).
