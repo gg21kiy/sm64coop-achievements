@@ -40,6 +40,16 @@
 
 ---
 
+## 📥 Download
+
+Download the latest version from [Releases](https://github.com/gg21kiy/sm64coop-achievements/releases/latest) or via GameBanana.
+
+[![](https://gamebanana.com/mods/embeddables/723530?type=large)](https://gamebanana.com/mods/723530)
+
+[![Download on GameBanana](https://img.shields.io/badge/GameBanana-Download-yellow?style=for-the-badge)](https://gamebanana.com/mods/723530)
+
+---
+
 ## 📦 Installation
 
 1. Download the latest `sm64coop-achievements` folder (or `.zip`) from the [Releases](../../releases) page.
