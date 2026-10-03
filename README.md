@@ -49,7 +49,7 @@
 3. Start the game, go to **Mods** and enable **Achievements Mod**.
 4. Join or host a game. You will see a message when the mod loads.
 
-> 🖼️ **Icons:** this repository does **not** include the achievement icons (see [Icons](#-icons)). The mod works without them, but you'll need to add your own PNGs to see icons in the popup and the menu.
+> 🖼️ **Icons:** this repository does **not** include the achievement icons. The mod works without them, but you'll need to add your own PNGs to see icons in the popup and the menu.
 
 ---
 
