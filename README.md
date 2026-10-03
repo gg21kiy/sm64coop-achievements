@@ -195,7 +195,7 @@ Resets the achievements of the **current save file** only.
 For copyright reasons, **this repository does not ship any icon images**. To get icons in the popup and in the menu:
 
 1. Create (or obtain with permission) your own `.png` images.
-2. Name them exactly as listed in [`textures/SM64 Achievement Icon Naming Guide.txt`](textures/SM64%20Achievement%20Icon%20Naming%20Guide.txt) (for example `stars_1.png`, `bosses_big_bob.png`, `deaths_falling.png`, `cheater.png`...).
+2. Name them exactly as listed in [`SM64Coop Achievements Icon Naming Guide`](sm64coop-achievements/textures/SM64Coop%20Achievements%20Icon%20Naming%20Guide.txt) (for example `stars_1.png`, `bosses_big_bob.png`, `deaths_falling.png`, `cheater.png`...).
 3. Drop them inside the mod's `textures/` folder.
 
 Please **only use images you own or have the right to use**.
