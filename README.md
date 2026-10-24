@@ -82,9 +82,9 @@ Close it with the same command/button.
 | Method | How |
 |---|---|
 | Chat command | `/achievements lang <code>` (e.g., `/achievements lang es`, `/achievements lang en`) |
-| Mod Menu | Adjust the **Language** slider (1: EN, 2: ES, 3: CA, 4: GL, 5: EU, 6: PT, 7: FR) |
+| Mod Menu | Adjust the **Language** slider (1: EN, 2: ES, 3: CA, 4: GL, 5: EU, 6: PT, 7: FR, 8: DE) |
 
-Supported language codes: `en` (English), `es` (Español), `ca` (Català), `gl` (Galego), `eu` (Euskara), `pt` (Português), `fr` (Français).
+Supported language codes: `en` (English), `es` (Español), `ca` (Català), `gl` (Galego), `eu` (Euskara), `pt` (Português), `fr` (Français), `de` (Deutsch).
 
 ### Reset your progress
 
