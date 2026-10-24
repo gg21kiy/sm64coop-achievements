@@ -5,6 +5,7 @@
 <a href="https://github.com/coop-deluxe/sm64coopdx"><img src="https://img.shields.io/badge/SM64CoopDX-Compatible-brightgreen?style=for-the-badge&logo=nintendo&logoColor=white" alt="SM64CoopDX Compatible"></a>
 <a href="https://github.com/djoslin0/sm64ex-coop"><img src="https://img.shields.io/badge/SM64ExCoop-Not%20Compatible-critical?style=for-the-badge&logo=nintendo&logoColor=white" alt="SM64ExCoop Not Compatible"></a>
   <a href="#-achievements"><img src="https://img.shields.io/badge/Achievements-46-gold?style=for-the-badge" alt="46 Achievements"></a>
+  <img src="https://img.shields.io/badge/Languages-7-orange?style=for-the-badge" alt="7 Languages Supported">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License"></a>
 </p><br><img src="Screenshots/popup.jpg" alt="SM64 Coop Achievements" width="700"><p>
   <em>An achievement system for SM64CoopDX inspired by Moon64.</em>
@@ -20,6 +21,7 @@
 ## ✨ Features
 
 - **46 achievements** across 6 categories: Stars, Caps, Ranks, Bosses, Deaths and Extras.
+- **Multi-language support (7 languages):** English, Español, Català, Galego, Euskara, Português, and Français.
 - **Popup notification** when you unlock one (position, size and duration are configurable).
 - **Unlock sound** selectable from the settings (none, coin, red coin, 1-UP, star sound, secret, star appears).
 - **Achievements menu** with the title, description and icon of every achievement, with an "Unlocked only" filter.
@@ -75,6 +77,15 @@ Download the latest version from [Releases](https://github.com/gg21kiy/sm64coop-
 
 Close it with the same command/button.
 
+### Change language
+
+| Method | How |
+|---|---|
+| Chat command | `/achievements lang <code>` (e.g., `/achievements lang es`, `/achievements lang en`) |
+| Mod Menu | Adjust the **Language** slider (1: EN, 2: ES, 3: CA, 4: GL, 5: EU, 6: PT, 7: FR) |
+
+Supported language codes: `en` (English), `es` (Español), `ca` (Català), `gl` (Galego), `eu` (Euskara), `pt` (Português), `fr` (Français).
+
 ### Reset your progress
 
 ```
@@ -87,6 +98,7 @@ Resets the achievements of the **current save file** only.
 
 | Setting | Description |
 |---|---|
+| Language (1-7) | Select active language (1: EN, 2: ES, 3: CA, 4: GL, 5: EU, 6: PT, 7: FR) |
 | Show notifications | Enable/disable the unlock popup |
 | Unlock sound (0-6) | `0` none, `1` coin (default), `2` red coin, `3` 1-UP, `4` star sound, `5` secret, `6` star appears |
 | Horizontal pos | `0` left · `1` center · `2` right |
@@ -211,7 +223,7 @@ Are you a mod developer interested in adding your own custom achievements, icons
 For copyright reasons, **this repository does not ship any icon images**. To get icons in the popup and in the menu:
 
 1. Create (or obtain with permission) your own `.png` images.
-2. Name them exactly as listed in [`SM64Coop Achievements Icon Naming Guide`](sm64coop-achievements/textures/SM64Coop%20Achievements%20Icon%20Naming%20Guide.txt) (for example `stars_1.png`, `bosses_big_bob.png`, `deaths_falling.png`, `cheater.png`...).
+2. Name them exactly as listed in [`SM64Coop Achievements Icon Naming Guide`](textures/SM64%20Achievement%20Icon%20Naming%20Guide.txt) (for example `stars_1.png`, `bosses_big_bob.png`, `deaths_falling.png`, `cheater.png`...).
 3. Drop them inside the mod's `textures/` folder.
 
 Please **only use images you own or have the right to use**.
@@ -223,13 +235,21 @@ Please **only use images you own or have the right to use**.
 
 ## 📁 Project structure
 
-```
+```text
 sm64coop-achievements/
-├── main.lua                                      # Mod logic, menu and settings
+├── lang_0_core.lua               # Translation manager and storage handler
+├── lang_en.lua                   # English localization (fallback)
+├── lang_es.lua                   # Spanish localization
+├── lang_ca.lua                   # Catalan localization
+├── lang_gl.lua                   # Galician localization
+├── lang_eu.lua                   # Basque localization
+├── lang_pt.lua                   # Portuguese localization
+├── lang_fr.lua                   # French localization
+├── main.lua                      # Mod logic, menu and settings
+├── in-game language setting.txt  # Documentation guide for language setup
 └── textures/
-    └── SM64 Achievement Icon Naming Guide.txt    # File names expected for the icons
+    └── SM64 Achievement Icon Naming Guide.txt # File names expected for the icons
 ```
-
 ---
 
 ## 🐛 Known limitations / bug reports
@@ -248,7 +268,7 @@ Found a bug? Open an [issue](../../issues) and include:
 
 ## 🤝 Contributing
 
-Pull requests are welcome. If you want to add an achievement, add a new entry to the `LIST` table in `main.lua` and the matching condition in the corresponding `check_*` function or event hook.
+Pull requests are welcome. If you want to add an achievement, add a new entry to the `LIST` table in `main.lua` and the matching condition in the corresponding `check_*` function or event hook. If you want to add or fix a translation, edit the corresponding `lang_*.lua` file.
 
 ---
 
