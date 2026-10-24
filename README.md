@@ -12,7 +12,7 @@
 </p>
 
 [📷 Screenshots](https://github.com/gg21kiy/sm64coop-achievements#-screenshots) •
-[📥 Download](https://github.com/gg21kiy/sm64coop-achievements/releases/latest) 
+[📥 Download](https://github.com/gg21kiy/sm64coop-achievements?tab=readme-ov-file#-download) 
 
 </div>
 
