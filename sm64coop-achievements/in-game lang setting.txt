@@ -1,0 +1,45 @@
+============================================================
+       SM64COOP-ACHIEVEMENTS - LANGUAGE SETTINGS GUIDE      
+============================================================
+
+This mod supports multiple languages for all achievements,
+descriptions, UI menus, and popups.
+
+------------------------------------------------------------
+1. HOW TO CHANGE THE LANGUAGE IN-GAME
+------------------------------------------------------------
+
+Option A: Via Chat Command
+  Type in the chat:
+    /achievements lang <code>
+
+  Example:
+    /achievements lang ca   (Changes language to Catalan)
+    /achievements lang es   (Changes language to Spanish)
+
+Option B: Via Mod Menu (Pause Menu)
+  1. Open Pause Menu -> Mod Settings -> Achievements Mod.
+  2. Adjust the "Language" slider to your desired number (1 to 7).
+
+
+------------------------------------------------------------
+2. LANGUAGE ID & NUMBER LIST
+------------------------------------------------------------
+
+  [1] en  - English
+  [2] es  - Español (Castellano)
+  [3] ca  - Català
+  [4] gl  - Galego
+  [5] eu  - Euskara
+  [6] pt  - Português
+  [7] fr  - Français
+
+
+------------------------------------------------------------
+3. NOTES
+------------------------------------------------------------
+- The chosen language is automatically saved and kept across sessions.
+- Default language is English / Español depending on your initial setting.
+- If an external achievement from another mod is not translated,
+  it will safely fallback to English.
+============================================================

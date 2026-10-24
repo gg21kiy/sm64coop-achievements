@@ -1,0 +1,77 @@
+-- English (en) Localization for Achievements Mod
+LANG_DATA = LANG_DATA or {}
+
+LANG_DATA["en"] = {
+    name = "English",
+    ui = {
+        menu_unavailable = "The achievements menu is not available right now",
+        pause_open = "Press %s to open Achievements",
+        pause_unavailable = "Achievements unavailable",
+        header = "ACHIEVEMENTS  %d/%d",
+        locked_title = "???",
+        locked_desc = "Locked",
+        page = "Page %d/%d",
+        controls = "L/R, D-Pad or stick = page, A = filter, B/Start = close",
+        show_all = "Show all",
+        unlocked_only = "Unlocked only",
+        reset_msg = "Achievements for the current save file have been reset",
+        cmd_help = "/achievements - opens or closes the menu\n/achievements reset - resets the current save file\n/achievements lang [en|es|ca|gl|eu|pt|fr|de] - changes language",
+        chat_notify = "\\#ffff00\\[Achievements]\\#ffffff Type \\#00ffff/achievements\\#ffffff in chat to open the menu.",
+        lang_changed = "\\#ffff00\\[Achievements]\\#ffffff Language set to: English",
+    },
+    achievements = {
+        __preview = { title = "Achievement preview", desc = "Popup position test" },
+        -- Stars
+        get1Stars   = { title = "First Star!",             desc = "Collect your very first star" },
+        get8Stars   = { title = "Power Growing",           desc = "Collect 8 stars" },
+        get30Stars  = { title = "A Quarter Complete",      desc = "Collect 30 stars" },
+        get31Stars  = { title = "One More For Luck",       desc = "Collect 31 stars" },
+        get50Stars  = { title = "Half Century",            desc = "Collect 50 stars" },
+        get70Stars  = { title = "Making Progress",         desc = "Collect 70 stars" },
+        get120Stars = { title = "Star Collector",          desc = "Collect all 120 stars" },
+        -- Caps
+        unlockWingCap   = { title = "Take Flight",    desc = "Unlock the Wing Cap" },
+        unlockMetalCap  = { title = "Solid Power",    desc = "Unlock the Metal Cap" },
+        unlockVanishCap = { title = "Now You See Me", desc = "Unlock the Vanish Cap" },
+        -- Ranks
+        get6MainStars    = { title = "Six-Star Challenge",    desc = "Collect all 6 main stars in a single course" },
+        get100CoinStar   = { title = "Coin Hoarder",          desc = "Collect a 100-coin star" },
+        getAllCoins      = { title = "Coin Master",           desc = "Collect every coin in a course" },
+        getBasementStars = { title = "Basement Explorer",     desc = "Collect all main stars from the basement courses" },
+        getFloor1Stars   = { title = "First Floor Champion",  desc = "Collect all main stars from the first floor" },
+        getFloor2Stars   = { title = "Second Floor Champion", desc = "Collect all main stars from the second floor" },
+        getFloor3Stars   = { title = "Third Floor Champion",  desc = "Collect all main stars from the third floor" },
+        getCastleStars   = { title = "Castle Secrets",        desc = "Find all of the castle's secret stars" },
+        -- Bosses
+        beatMrI          = { title = "Eye To Eye",       desc = "Defeat Mr. I" },
+        beatWiggler      = { title = "Bug Squashed",     desc = "Defeat Wiggler" },
+        beatKingBobOmb   = { title = "Bombs Away",       desc = "Defeat King Bob-omb" },
+        beatBigBullies   = { title = "Bully Buster",     desc = "Defeat the Big Bully in LLL" },
+        beatEyerok       = { title = "Hands Down",       desc = "Defeat Eyerok" },
+        beatKingWhomp    = { title = "Whomp Down",       desc = "Defeat King Whomp" },
+        beatAllBoos      = { title = "Ghost Hunter",     desc = "Defeat every Big Boo in BBH" },
+        beatFirstBowser  = { title = "First Encounter",  desc = "Defeat Bowser in the first battle" },
+        beatSecondBowser = { title = "Back For More",    desc = "Defeat Bowser in the second battle" },
+        beatFinalBowser  = { title = "Final Showdown",   desc = "Defeat Bowser in the final battle" },
+        beatGame120Stars = { title = "True Completion",  desc = "Defeat the final Bowser after collecting all 120 stars" },
+        -- Deaths
+        deathByFalling  = { title = "Watch Your Step", desc = "Lose a life by falling" },
+        deathBySand     = { title = "Sandy Situation", desc = "Lose a life in quicksand" },
+        deathByCrushing = { title = "Squashed!",       desc = "Get crushed and lose a life" },
+        deathByBowser   = { title = "Bowser Wins",     desc = "Lose a life during a Bowser battle" },
+        deathByBoss     = { title = "Boss Trouble",    desc = "Lose a life to a boss" },
+        deathByEnemy    = { title = "Wrong Move",      desc = "Lose a life to a regular enemy" },
+        deathByDrowning = { title = "Out Of Breath",   desc = "Lose a life by drowning" },
+        deathByFire     = { title = "Too Hot!",        desc = "Lose a life from fire or lava" },
+        -- Extras
+        slide100Times     = { title = "Slide Expert",    desc = "Perform 100 slides" },
+        jump1000Times     = { title = "Jump Machine",    desc = "Perform 1,000 jumps" },
+        talk25Times       = { title = "Chatty Plumber",  desc = "Talk to NPCs 25 times" },
+        beatEveryRace     = { title = "Race Champion",   desc = "Win every tracked race" },
+        talkWithYoshi     = { title = "Hello, Yoshi!",   desc = "Talk with Yoshi" },
+        releaseChainChomp = { title = "Free At Last",    desc = "Release the Chain Chomp" },
+        swimmer           = { title = "Metal-Free Dive", desc = "Get the Metal-Head Mario star without using the Metal Cap" },
+        cheater           = { title = "Caught Cheating", desc = "Activate a cheat" },
+        watchEndCredits   = { title = "Roll Credits",    desc = "Reach the game's ending" },
+    }
+}

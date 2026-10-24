@@ -1,0 +1,77 @@
+-- Portuguese / Portugues (pt) Localization for Achievements Mod
+LANG_DATA = LANG_DATA or {}
+
+LANG_DATA["pt"] = {
+    name = "Portugues",
+    ui = {
+        menu_unavailable = "O menu de conquistas nao esta disponivel no momento",
+        pause_open = "Pressione %s para abrir Conquistas",
+        pause_unavailable = "Conquistas indisponiveis",
+        header = "CONQUISTAS  %d/%d",
+        locked_title = "???",
+        locked_desc = "Bloqueado",
+        page = "Pagina %d/%d",
+        controls = "L/R, D-Pad ou analogico = pagina, A = filtrar, B/Start = fechar",
+        show_all = "Mostrar todas",
+        unlocked_only = "Apenas desbloqueadas",
+        reset_msg = "As conquistas do arquivo salvo atual foram redefinidas",
+        cmd_help = "/achievements - abre ou fecha o menu\n/achievements reset - redefine o save atual\n/achievements lang [en|es|ca|gl|eu|pt|fr|de] - muda o idioma",
+        chat_notify = "\\#ffff00\\[Conquistas]\\#ffffff Digite \\#00ffff/achievements\\#ffffff no chat para abrir o menu.",
+        lang_changed = "\\#ffff00\\[Conquistas]\\#ffffff Idioma alterado para: Portugues",
+    },
+    achievements = {
+        __preview = { title = "Previa da conquista", desc = "Teste de posicao na tela" },
+        -- Stars
+        get1Stars   = { title = "Primeira Estrela!",        desc = "Colete sua primeira estrela" },
+        get8Stars   = { title = "Poder Crescente",          desc = "Colete 8 estrelas" },
+        get30Stars  = { title = "Um Quarto Completo",       desc = "Colete 30 estrelas" },
+        get31Stars  = { title = "Mais Uma para Dar Sorte",  desc = "Colete 31 estrelas" },
+        get50Stars  = { title = "Meio Seculo",              desc = "Colete 50 estrelas" },
+        get70Stars  = { title = "Progredindo",              desc = "Colete 70 estrelas" },
+        get120Stars = { title = "Colecionador de Estrelas", desc = "Colete todas as 120 estrelas" },
+        -- Caps
+        unlockWingCap   = { title = "Levando Voo",          desc = "Desbloqueie o Bone com Asas" },
+        unlockMetalCap  = { title = "Poder Solido",         desc = "Desbloqueie o Bone de Metal" },
+        unlockVanishCap = { title = "Agora Voce Me Ve",     desc = "Desbloqueie o Bone Invisivel" },
+        -- Ranks
+        get6MainStars    = { title = "Desafio de Seis Estrelas", desc = "Colete as 6 estrelas principais de uma fase" },
+        get100CoinStar   = { title = "Acumulador de Moedas",     desc = "Colete uma estrela de 100 moedas" },
+        getAllCoins      = { title = "Mestre das Moedas",        desc = "Colete todas as moedas de uma fase" },
+        getBasementStars = { title = "Explorador do Porao",      desc = "Colete todas as estrelas principais do porao" },
+        getFloor1Stars   = { title = "Campeao do Primeiro Andar",desc = "Colete todas as estrelas principais do primeiro andar" },
+        getFloor2Stars   = { title = "Campeao do Segundo Andar", desc = "Colete todas as estrelas principais do segundo andar" },
+        getFloor3Stars   = { title = "Campeao do Terceiro Andar",desc = "Colete todas as estrelas principais do terceiro andar" },
+        getCastleStars   = { title = "Segredos do Castelo",      desc = "Encontre todas as estrelas secretas do castelo" },
+        -- Bosses
+        beatMrI          = { title = "Olho no Olho",        desc = "Derrote Mr. I" },
+        beatWiggler      = { title = "Inseto Esmagado",     desc = "Derrote Wiggler" },
+        beatKingBobOmb   = { title = "Bombas ao Ar",        desc = "Derrote o Rei Bob-omb" },
+        beatBigBullies   = { title = "Cacador de Bullies",  desc = "Derrote o Big Bully em LLL" },
+        beatEyerok       = { title = "Maos para Baixo",     desc = "Derrote Eyerok" },
+        beatKingWhomp    = { title = "Derrubando o Rei",    desc = "Derrote o Rei Whomp" },
+        beatAllBoos      = { title = "Caca-Fantasmas",      desc = "Derrote todos os Big Boos em BBH" },
+        beatFirstBowser  = { title = "Primeiro Encontro",   desc = "Derrote Bowser na primeira batalha" },
+        beatSecondBowser = { title = "De Volta para Mais",  desc = "Derrote Bowser na segunda batalha" },
+        beatFinalBowser  = { title = "Confronto Final",     desc = "Derrote Bowser na batalha final" },
+        beatGame120Stars = { title = "Conclusao Verdadeira",desc = "Derrote o Bowser final apos coletar as 120 estrelas" },
+        -- Deaths
+        deathByFalling  = { title = "Olhe Onde Pisa",       desc = "Perca uma vida caindo" },
+        deathBySand     = { title = "Situacao Movedica",    desc = "Perca uma vida na areia movedica" },
+        deathByCrushing = { title = "Esmagado!",            desc = "Seja esmagado e perca uma vida" },
+        deathByBowser   = { title = "Bowser Vence",         desc = "Perca uma vida durante uma batalha contra Bowser" },
+        deathByBoss     = { title = "Problema com o Chefe", desc = "Perca uma vida para um chefe" },
+        deathByEnemy    = { title = "Movimento Errado",     desc = "Perca uma vida para um inimigo comum" },
+        deathByDrowning = { title = "Sem Folego",           desc = "Perca uma vida afogado" },
+        deathByFire     = { title = "Quente Demais!",       desc = "Perca uma vida no fogo ou lava" },
+        -- Extras
+        slide100Times     = { title = "Especialista em Escorregar", desc = "Escorregue 100 vezes" },
+        jump1000Times     = { title = "Maquina de Pular",   desc = "De 1.000 pulos" },
+        talk25Times       = { title = "Encanador Falante",  desc = "Fale com NPCs 25 vezes" },
+        beatEveryRace     = { title = "Campeao de Corrida", desc = "Venca todas as corridas" },
+        talkWithYoshi     = { title = "Ola, Yoshi!",        desc = "Fale com o Yoshi" },
+        releaseChainChomp = { title = "Finalmente Livre",   desc = "Liberte o Chain Chomp" },
+        swimmer           = { title = "Mergulho sem Metal", desc = "Pegue a estrela do Mario de Metal sem usar o Bone de Metal" },
+        cheater           = { title = "Pego Trapaceando",   desc = "Ative uma trapaca" },
+        watchEndCredits   = { title = "Subam os Creditos",  desc = "Chegue ao final do jogo" },
+    }
+}

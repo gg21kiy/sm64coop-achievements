@@ -1,0 +1,77 @@
+-- French / Francais (fr) Localization for Achievements Mod
+LANG_DATA = LANG_DATA or {}
+
+LANG_DATA["fr"] = {
+    name = "Francais",
+    ui = {
+        menu_unavailable = "Le menu des succes n'est pas disponible pour le moment",
+        pause_open = "Appuyez sur %s pour ouvrir les Succes",
+        pause_unavailable = "Succes indisponibles",
+        header = "SUCCES  %d/%d",
+        locked_title = "???",
+        locked_desc = "Verrouille",
+        page = "Page %d/%d",
+        controls = "L/R, Croix ou stick = page, A = filtrer, B/Start = fermer",
+        show_all = "Tout afficher",
+        unlocked_only = "Debloques uniquement",
+        reset_msg = "Les succes de la sauvegarde actuelle ont ete reinitialises",
+        cmd_help = "/achievements - ouvre ou ferme le menu\n/achievements reset - reinitialise la sauvegarde\n/achievements lang [en|es|ca|gl|eu|pt|fr|de] - change la langue",
+        chat_notify = "\\#ffff00\\[Succes]\\#ffffff Tapez \\#00ffff/achievements\\#ffffff dans le chat pour ouvrir le menu.",
+        lang_changed = "\\#ffff00\\[Succes]\\#ffffff Langue changee en : Francais",
+    },
+    achievements = {
+        __preview = { title = "Apercu du succes", desc = "Test de position a l'ecran" },
+        -- Stars
+        get1Stars   = { title = "Premiere Etoile !",        desc = "Obtenez votre toute premiere etoile" },
+        get8Stars   = { title = "Puissance Croissante",     desc = "Obtenez 8 etoiles" },
+        get30Stars  = { title = "Un Quart Termine",         desc = "Obtenez 30 etoiles" },
+        get31Stars  = { title = "Une de Plus pour la Chance", desc = "Obtenez 31 etoiles" },
+        get50Stars  = { title = "Demi-Siecle",              desc = "Obtenez 50 etoiles" },
+        get70Stars  = { title = "En Bonne Voie",            desc = "Obtenez 70 etoiles" },
+        get120Stars = { title = "Collectionneur d'Etoiles", desc = "Obtenez les 120 etoiles" },
+        -- Caps
+        unlockWingCap   = { title = "Prendre son Envol",    desc = "Debloquez la Casquette Ailee" },
+        unlockMetalCap  = { title = "Pouvoir Solide",       desc = "Debloquez la Casquette de Metal" },
+        unlockVanishCap = { title = "Maintenant Tu Me Vois",desc = "Debloquez la Casquette d'Invisibilite" },
+        -- Ranks
+        get6MainStars    = { title = "Defi Six Etoiles",         desc = "Obtenez les 6 etoiles principales d'un niveau" },
+        get100CoinStar   = { title = "Amasseur de Pieces",       desc = "Obtenez une etoile de 100 pieces" },
+        getAllCoins      = { title = "Maitre des Pieces",        desc = "Obtenez toutes les pieces d'un niveau" },
+        getBasementStars = { title = "Explorateur du Sous-sol",  desc = "Obtenez toutes les etoiles principales du sous-sol" },
+        getFloor1Stars   = { title = "Champion du 1er Etage",    desc = "Obtenez toutes les etoiles principales du premier etage" },
+        getFloor2Stars   = { title = "Champion du 2e Etage",     desc = "Obtenez toutes les etoiles principales du deuxieme etage" },
+        getFloor3Stars   = { title = "Champion du 3e Etage",     desc = "Obtenez toutes les etoiles principales du troisieme etage" },
+        getCastleStars   = { title = "Secrets du Chateau",       desc = "Trouvez toutes les etoiles secretes du chateau" },
+        -- Bosses
+        beatMrI          = { title = "Les Yeux dans les Yeux", desc = "Battez Mr. I" },
+        beatWiggler      = { title = "Insecte Ecrase",      desc = "Battez Wiggler" },
+        beatKingBobOmb   = { title = "Larguez les Bombes",  desc = "Battez le Roi Bob-omb" },
+        beatBigBullies   = { title = "Chasseur de Brutes",  desc = "Battez le Grand Bully dans LLL" },
+        beatEyerok       = { title = "Bas les Pattes",      desc = "Battez Eyerok" },
+        beatKingWhomp    = { title = "A Terre le Roi",      desc = "Battez le Roi Whomp" },
+        beatAllBoos      = { title = "Chasseur de Fantomes",desc = "Battez tous les Grands Boos dans BBH" },
+        beatFirstBowser  = { title = "Premiere Rencontre",  desc = "Battez Bowser lors du premier combat" },
+        beatSecondBowser = { title = "De Retour",           desc = "Battez Bowser lors du deuxieme combat" },
+        beatFinalBowser  = { title = "Affrontement Final",  desc = "Battez Bowser lors du combat final" },
+        beatGame120Stars = { title = "Completion Totale",   desc = "Battez le Bowser final apres avoir obtenu les 120 etoiles" },
+        -- Deaths
+        deathByFalling  = { title = "Attention a la Marche",desc = "Perdez une vie en tombant" },
+        deathBySand     = { title = "Sables Mouvants",      desc = "Perdez une vie dans les sables mouvants" },
+        deathByCrushing = { title = "Ecrase !",             desc = "Soyez ecrase et perdez une vie" },
+        deathByBowser   = { title = "Bowser Gagne",         desc = "Perdez une vie pendant un combat contre Bowser" },
+        deathByBoss     = { title = "Probleme de Boss",     desc = "Perdez une vie contre un boss" },
+        deathByEnemy    = { title = "Faux Mouvement",       desc = "Perdez une vie contre un ennemi normal" },
+        deathByDrowning = { title = "A Bout de Souffle",    desc = "Perdez une vie en vous noyant" },
+        deathByFire     = { title = "Trop Chaud !",         desc = "Perdez une vie dans le feu ou la lave" },
+        -- Extras
+        slide100Times     = { title = "Expert de la Glisse",desc = "Effectuez 100 glissades" },
+        jump1000Times     = { title = "Machine a Sauter",   desc = "Effectuez 1 000 sauts" },
+        talk25Times       = { title = "Plombier Bavard",    desc = "Parlez aux PNJ 25 fois" },
+        beatEveryRace     = { title = "Champion de Course", desc = "Gagnez toutes les courses" },
+        talkWithYoshi     = { title = "Salut, Yoshi !",     desc = "Parlez avec Yoshi" },
+        releaseChainChomp = { title = "Enfin Libre",        desc = "Liberez le Chain Chomp" },
+        swimmer           = { title = "Plongee sans Metal", desc = "Obtenez l'etoile de Mario de Metal sans la Casquette de Metal" },
+        cheater           = { title = "Pris en Flagrant Delit", desc = "Activez un code de triche" },
+        watchEndCredits   = { title = "Generique de Fin",   desc = "Atteignez la fin du jeu" },
+    }
+}

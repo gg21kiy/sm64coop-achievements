@@ -1,0 +1,77 @@
+-- German / Deutsch (de) Localization for Achievements Mod
+LANG_DATA = LANG_DATA or {}
+
+LANG_DATA["de"] = {
+    name = "Deutsch",
+    ui = {
+        menu_unavailable = "Das Erfolge-Menu ist momentan nicht verfugbar",
+        pause_open = "Drucke %s fur Erfolge",
+        pause_unavailable = "Erfolge nicht verfugbar",
+        header = "ERFOLGE  %d/%d",
+        locked_title = "???",
+        locked_desc = "Gesperrt",
+        page = "Seite %d/%d",
+        controls = "L/R, Steuerkreuz oder Stick = Seite, A = Filter, B/Start = Schliessen",
+        show_all = "Alle zeigen",
+        unlocked_only = "Nur freigeschaltete",
+        reset_msg = "Die Erfolge fur den aktuellen Spielstand wurden zuruckgesetzt",
+        cmd_help = "/achievements - offnet oder schliesst das Menu\n/achievements reset - setzt den Spielstand zuruck\n/achievements lang [en|es|ca|gl|eu|pt|fr|de] - Sprache andern",
+        chat_notify = "\\#ffff00\\[Erfolge]\\#ffffff Tippe \\#00ffff/achievements\\#ffffff in den Chat, um das Menu zu offnen.",
+        lang_changed = "\\#ffff00\\[Erfolge]\\#ffffff Sprache geandert auf: Deutsch",
+    },
+    achievements = {
+        __preview = { title = "Erfolg-Vorschau", desc = "Positionstest fur Popups" },
+        -- Stars
+        get1Stars   = { title = "Erster Stern!",            desc = "Sammle deinen allerersten Stern" },
+        get8Stars   = { title = "Wachsende Kraft",          desc = "Sammle 8 Sterne" },
+        get30Stars  = { title = "Ein Viertel Geschafft",    desc = "Sammle 30 Sterne" },
+        get31Stars  = { title = "Einer Noch fur das Gluck", desc = "Sammle 31 Sterne" },
+        get50Stars  = { title = "Halbes Jahrhundert",       desc = "Sammle 50 Sterne" },
+        get70Stars  = { title = "Guter Fortschritt",        desc = "Sammle 70 Sterne" },
+        get120Stars = { title = "Sternensammler",           desc = "Sammle alle 120 Sterne" },
+        -- Caps
+        unlockWingCap   = { title = "Guten Flug",           desc = "Schalte die Flugelkappe frei" },
+        unlockMetalCap  = { title = "Solide Kraft",         desc = "Schalte die Metallkappe frei" },
+        unlockVanishCap = { title = "Jetzt Siehst Du Mich", desc = "Schalte die Tarnkappe frei" },
+        -- Ranks
+        get6MainStars    = { title = "Sechs-Sterne-Herausforderung", desc = "Sammle alle 6 Hauptsterne in einem Kurs" },
+        get100CoinStar   = { title = "Munzsammler",         desc = "Sammle einen 100-Munzen-Stern" },
+        getAllCoins      = { title = "Munzmeister",         desc = "Sammle jede Munze in einem Kurs" },
+        getBasementStars = { title = "Keller-Entdecker",    desc = "Sammle alle Hauptsterne im Keller" },
+        getFloor1Stars   = { title = "Champion im 1. Stock",desc = "Sammle alle Hauptsterne im ersten Stock" },
+        getFloor2Stars   = { title = "Champion im 2. Stock",desc = "Sammle alle Hauptsterne im zweiten Stock" },
+        getFloor3Stars   = { title = "Champion im 3. Stock",desc = "Sammle alle Hauptsterne im dritten Stock" },
+        getCastleStars   = { title = "Schlossgeheimnisse",  desc = "Finde alle geheimen Sterne des Schlosses" },
+        -- Bosses
+        beatMrI          = { title = "Auge in Auge",        desc = "Besiege Mr. I" },
+        beatWiggler      = { title = "Kafer Zerquetscht",   desc = "Besiege Wiggler" },
+        beatKingBobOmb   = { title = "Bomben Los",          desc = "Besiege Konig Bob-omb" },
+        beatBigBullies   = { title = "Bully-Bezwinger",     desc = "Besiege den Big Bully in LLL" },
+        beatEyerok       = { title = "Hande Runter",        desc = "Besiege Eyerok" },
+        beatKingWhomp    = { title = "Koniglicher Sturz",   desc = "Besiege Konig Whomp" },
+        beatAllBoos      = { title = "Geisterjager",        desc = "Besiege jeden Big Boo in BBH" },
+        beatFirstBowser  = { title = "Erste Begegnung",     desc = "Besiege Bowser im ersten Kampf" },
+        beatSecondBowser = { title = "Bereit fur Mehr",     desc = "Besiege Bowser im zweiten Kampf" },
+        beatFinalBowser  = { title = "Finaler Showdown",    desc = "Besiege Bowser im letzten Kampf" },
+        beatGame120Stars = { title = "Wahre Vollendung",    desc = "Besiege den letzten Bowser mit allen 120 Sternen" },
+        -- Deaths
+        deathByFalling  = { title = "Pass Auf, Wo Du Hintrittst", desc = "Verliere ein Leben durch Herunterfallen" },
+        deathBySand     = { title = "Treibsand-Situation",  desc = "Verliere ein Leben im Treibsand" },
+        deathByCrushing = { title = "Zerquetscht!",         desc = "Werde zerquetscht und verliere ein Leben" },
+        deathByBowser   = { title = "Bowser Gewinnt",       desc = "Verliere ein Leben in einem Bowser-Kampf" },
+        deathByBoss     = { title = "Boss-Probleme",        desc = "Verliere ein Leben gegen einen Boss" },
+        deathByEnemy    = { title = "Falscher Zug",         desc = "Verliere ein Leben gegen einen normalen Gegner" },
+        deathByDrowning = { title = "Ausser Atem",          desc = "Verliere ein Leben durch Ertrinken" },
+        deathByFire     = { title = "Zu Heiss!",            desc = "Verliere ein Leben durch Feuer oder Lava" },
+        -- Extras
+        slide100Times     = { title = "Rutsch-Experte",     desc = "Rutsche 100 Mal" },
+        jump1000Times     = { title = "Sprungmaschine",     desc = "Springe 1.000 Mal" },
+        talk25Times       = { title = "Gesprachiger Klempner", desc = "Sprich 25 Mal mit NPCs" },
+        beatEveryRace     = { title = "Renn-Champion",      desc = "Gewinne jedes Rennen" },
+        talkWithYoshi     = { title = "Hallo, Yoshi!",      desc = "Sprich mit Yoshi" },
+        releaseChainChomp = { title = "Endlich Frei",       desc = "Befreie den Kettenhund" },
+        swimmer           = { title = "Metallfreier Tauchgang", desc = "Hole den Metall-Mario-Stern ohne die Metallkappe" },
+        cheater           = { title = "Beim Schummeln Erwischt", desc = "Aktiviere einen Cheat" },
+        watchEndCredits   = { title = "Abspann ab!",        desc = "Erreiche das Ende des Spiels" },
+    }
+}

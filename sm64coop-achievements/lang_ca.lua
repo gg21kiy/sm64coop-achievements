@@ -1,0 +1,77 @@
+-- Catalan / Catala (ca) Localization for Achievements Mod
+LANG_DATA = LANG_DATA or {}
+
+LANG_DATA["ca"] = {
+    name = "Catala",
+    ui = {
+        menu_unavailable = "El menu d'assoliments no esta disponible ara mateix",
+        pause_open = "Prem %s per obrir Assoliments",
+        pause_unavailable = "Assoliments no disponibles",
+        header = "ASSOLIMENTS  %d/%d",
+        locked_title = "???",
+        locked_desc = "Bloquejat",
+        page = "Pagina %d/%d",
+        controls = "L/R, Creueta o stick = pagina, A = filtrar, B/Start = tancar",
+        show_all = "Mostrar tots",
+        unlocked_only = "Nomes desbloquejats",
+        reset_msg = "S'han reiniciat els assoliments de la partida actual",
+        cmd_help = "/achievements - obre o tanca el menu\n/achievements reset - reinicia la partida actual\n/achievements lang [en|es|ca|gl|eu|pt|fr|de] - canvia l'idioma",
+        chat_notify = "\\#ffff00\\[Assoliments]\\#ffffff Escriu \\#00ffff/achievements\\#ffffff al xat per obrir el menu.",
+        lang_changed = "\\#ffff00\\[Assoliments]\\#ffffff Idioma canviat a: Catala",
+    },
+    achievements = {
+        __preview = { title = "Vista previa d'assoliment", desc = "Prova de posicio en pantalla" },
+        -- Stars
+        get1Stars   = { title = "Primera Estrella!",        desc = "Aconsegueix la teva primera estrella" },
+        get8Stars   = { title = "Poder Creixent",           desc = "Aconsegueix 8 estrelles" },
+        get30Stars  = { title = "Un Quart Completat",       desc = "Aconsegueix 30 estrelles" },
+        get31Stars  = { title = "Una Mes per Sort",         desc = "Aconsegueix 31 estrelles" },
+        get50Stars  = { title = "Mig Segle",                desc = "Aconsegueix 50 estrelles" },
+        get70Stars  = { title = "Fent Progres",             desc = "Aconsegueix 70 estrelles" },
+        get120Stars = { title = "Col-leccionista d'Estrelles", desc = "Aconsegueix les 120 estrelles" },
+        -- Caps
+        unlockWingCap   = { title = "A Volar",              desc = "Desbloqueja la Gorra Alada" },
+        unlockMetalCap  = { title = "Poder Solid",          desc = "Desbloqueja la Gorra Metal-lica" },
+        unlockVanishCap = { title = "Ara Em Veus...",       desc = "Desbloqueja la Gorra Invisible" },
+        -- Ranks
+        get6MainStars    = { title = "Repte de Sis Estrelles",    desc = "Aconsegueix les 6 estrelles principals d'un nivell" },
+        get100CoinStar   = { title = "Acaparador de Monedes",     desc = "Aconsegueix una estrella de 100 monedes" },
+        getAllCoins      = { title = "Mestre de les Monedes",     desc = "Aconsegueix totes les monedes d'un nivell" },
+        getBasementStars = { title = "Explorador del Soterrani",  desc = "Aconsegueix totes les estrelles principals del soterrani" },
+        getFloor1Stars   = { title = "Campio del Primer Pis",     desc = "Aconsegueix totes les estrelles principals del primer pis" },
+        getFloor2Stars   = { title = "Campio del Segon Pis",      desc = "Aconsegueix totes les estrelles principals del segon pis" },
+        getFloor3Stars   = { title = "Campio del Tercer Pis",     desc = "Aconsegueix totes les estrelles principals del tercer pis" },
+        getCastleStars   = { title = "Secrets del Castell",       desc = "Troba totes les estrelles secretes del castell" },
+        -- Bosses
+        beatMrI          = { title = "Cara a Cara",          desc = "Derrota a Mr. I" },
+        beatWiggler      = { title = "Cuca Aixafada",        desc = "Derrota a Wiggler" },
+        beatKingBobOmb   = { title = "Bombes Fora!",         desc = "Derrota al Rei Bob-omb" },
+        beatBigBullies   = { title = "Cacador de Bullies",   desc = "Derrota al Gran Bully a LLL" },
+        beatEyerok       = { title = "Mans Avall",           desc = "Derrota a Eyerok" },
+        beatKingWhomp    = { title = "Cop al Rei",           desc = "Derrota al Rei Whomp" },
+        beatAllBoos      = { title = "Cacafantasmes",        desc = "Derrota a tots els Gran Boo a BBH" },
+        beatFirstBowser  = { title = " Primera Trobada",     desc = "Derrota a Bowser a la primera batalla" },
+        beatSecondBowser = { title = "A per Mes",            desc = "Derrota a Bowser a la segona batalla" },
+        beatFinalBowser  = { title = "Duel Final",           desc = "Derrota a Bowser a la batalla final" },
+        beatGame120Stars = { title = "Completat Real",       desc = "Derrota al Bowser final despres d'aconseguir les 120 estrelles" },
+        -- Deaths
+        deathByFalling  = { title = "Vigila On Trepitges",  desc = "Perd una vida caient al buit" },
+        deathBySand     = { title = "Situacio Movedissa",   desc = "Perd una vida en sorres movedisses" },
+        deathByCrushing = { title = "Aixafat!",             desc = "Mor aixafat i perd una vida" },
+        deathByBowser   = { title = "Bowser Guanya",        desc = "Perd una vida durant una batalla contra Bowser" },
+        deathByBoss     = { title = "Problemes amb el Cap", desc = "Perd una vida contra un cap" },
+        deathByEnemy    = { title = "Mal Moviment",         desc = "Perd una vida contra un enemic normal" },
+        deathByDrowning = { title = "Sense Ale",            desc = "Perd una vida ofegat" },
+        deathByFire     = { title = "Crema Massa!",         desc = "Perd una vida per foc o lava" },
+        -- Extras
+        slide100Times     = { title = "Expert en Tobogans",  desc = "Llisca 100 vegades" },
+        jump1000Times     = { title = "Maquina de Saltar",   desc = "Fes 1.000 salts" },
+        talk25Times       = { title = "Llampista Xerraire",  desc = "Parla amb NPCs 25 vegades" },
+        beatEveryRace     = { title = "Campio de Curses",    desc = "Guanya totes les curses del joc" },
+        talkWithYoshi     = { title = "Hola, Yoshi!",        desc = "Parla amb en Yoshi" },
+        releaseChainChomp = { title = "Per Fi Lliure",       desc = "Allibera el Chomp Cadenes" },
+        swimmer           = { title = "Busseig sense Metall",desc = "Aconsegueix l'estrella de Mario Metal-lic sense la Gorra Metal-lica" },
+        cheater           = { title = "Enxampat Fent Trampes", desc = "Activa un truc" },
+        watchEndCredits   = { title = "Credits Finals",      desc = "Arriba al final del joc" },
+    }
+}

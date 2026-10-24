@@ -1,0 +1,77 @@
+-- Spanish / Castellano (es) Localization for Achievements Mod
+LANG_DATA = LANG_DATA or {}
+
+LANG_DATA["es"] = {
+    name = "Español",
+    ui = {
+        menu_unavailable = "El menu de logros no esta disponible ahora mismo",
+        pause_open = "Pulsa %s para abrir Logros",
+        pause_unavailable = "Logros no disponibles",
+        header = "LOGROS  %d/%d",
+        locked_title = "???",
+        locked_desc = "Bloqueado",
+        page = "Pagina %d/%d",
+        controls = "L/R, Cruceta o stick = pagina, A = filtrar, B/Start = cerrar",
+        show_all = "Mostrar todos",
+        unlocked_only = "Solo desbloqueados",
+        reset_msg = "Se han reiniciado los logros de la partida actual",
+        cmd_help = "/achievements - abre o cierra el menu\n/achievements reset - reinicia la partida actual\n/achievements lang [en|es|ca|gl|eu|pt|fr|de] - cambia el idioma",
+        chat_notify = "\\#ffff00\\[Logros]\\#ffffff Escribe \\#00ffff/achievements\\#ffffff en el chat para abrir el menu.",
+        lang_changed = "\\#ffff00\\[Logros]\\#ffffff Idioma cambiado a: Español",
+    },
+    achievements = {
+        __preview = { title = "Vista previa de logro", desc = "Prueba de posicion en pantalla" },
+        -- Stars
+        get1Stars   = { title = "Primera Estrella!",        desc = "Consigue tu primera estrella" },
+        get8Stars   = { title = "Poder en Aumento",         desc = "Consigue 8 estrellas" },
+        get30Stars  = { title = "Un Cuarto Completado",     desc = "Consigue 30 estrellas" },
+        get31Stars  = { title = "Una Mas por Suerte",       desc = "Consigue 31 estrellas" },
+        get50Stars  = { title = "Medio Siglo",              desc = "Consigue 50 estrellas" },
+        get70Stars  = { title = "Progresando",              desc = "Consigue 70 estrellas" },
+        get120Stars = { title = "Coleccionista Estelar",    desc = "Consigue las 120 estrellas" },
+        -- Caps
+        unlockWingCap   = { title = "A Volar",              desc = "Desbloquea la Gorra Alada" },
+        unlockMetalCap  = { title = "Poder Solido",         desc = "Desbloquea la Gorra Metalica" },
+        unlockVanishCap = { title = "Ahora Me Ves...",      desc = "Desbloquea la Gorra Invisible" },
+        -- Ranks
+        get6MainStars    = { title = "Desafio de Seis Estrellas", desc = "Consigue las 6 estrellas principales de un nivel" },
+        get100CoinStar   = { title = "Acaparador de Monedas",     desc = "Consigue una estrella de 100 monedas" },
+        getAllCoins      = { title = "Maestro de las Monedas",    desc = "Consigue todas las monedas de un nivel" },
+        getBasementStars = { title = "Explorador del Sotano",     desc = "Consigue todas las estrellas principales del sotano" },
+        getFloor1Stars   = { title = "Campeon del Primer Piso",   desc = "Consigue todas las estrellas principales del primer piso" },
+        getFloor2Stars   = { title = "Campeon del Segundo Piso",  desc = "Consigue todas las estrellas principales del segundo piso" },
+        getFloor3Stars   = { title = "Campeon del Tercer Piso",   desc = "Consigue todas las estrellas principales del tercer piso" },
+        getCastleStars   = { title = "Secretos del Castillo",     desc = "Encuentra todas las estrellas secretas del castillo" },
+        -- Bosses
+        beatMrI          = { title = "Ojo por Ojo",          desc = "Derrota a Mr. I" },
+        beatWiggler      = { title = "Bicho Aplastado",      desc = "Derrota a Floruga" },
+        beatKingBobOmb   = { title = "Bombas Fuera!",        desc = "Derrota al Rey Bob-omb" },
+        beatBigBullies   = { title = "Cazador de Bullies",   desc = "Derrota al Gran Bully en LLL" },
+        beatEyerok       = { title = "Manos Abajo",          desc = "Derrota a Eyerok" },
+        beatKingWhomp    = { title = "Golpe al Rey",         desc = "Derrota al Rey Whomp" },
+        beatAllBoos      = { title = "Cazafantasmas",        desc = "Derrota a todos los Gran Boo en BBH" },
+        beatFirstBowser  = { title = "Primer Encuentro",     desc = "Derrota a Bowser en la primera batalla" },
+        beatSecondBowser = { title = "A por Mas",            desc = "Derrota a Bowser en la segunda batalla" },
+        beatFinalBowser  = { title = "Duelo Final",          desc = "Derrota a Bowser en la batalla final" },
+        beatGame120Stars = { title = "Completado Real",      desc = "Derrota al Bowser final tras conseguir las 120 estrellas" },
+        -- Deaths
+        deathByFalling  = { title = "Mira Donde Pisas",     desc = "Pierde una vida al caer al vacio" },
+        deathBySand     = { title = "Situacion Movediza",   desc = "Pierde una vida en arenas movedizas" },
+        deathByCrushing = { title = "Espachurrado!",        desc = "Muere aplastado y pierde una vida" },
+        deathByBowser   = { title = "Bowser Gana",          desc = "Pierde una vida durante una batalla contra Bowser" },
+        deathByBoss     = { title = "Problemas con el Jefe",desc = "Pierde una vida contra un jefe" },
+        deathByEnemy    = { title = "Mal Movimiento",       desc = "Pierde una vida contra un enemigo normal" },
+        deathByDrowning = { title = "Sin Aliento",          desc = "Pierde una vida ahogado" },
+        deathByFire     = { title = "Quema Demasiado!",     desc = "Pierde una vida por fuego o lava" },
+        -- Extras
+        slide100Times     = { title = "Experto en Toboganes", desc = "Deslizate 100 veces" },
+        jump1000Times     = { title = "Maquina de Saltar",    desc = "Realiza 1.000 saltos" },
+        talk25Times       = { title = "Fontanero Parlanchin", desc = "Habla con NPCs 25 veces" },
+        beatEveryRace     = { title = "Campeon de Carreras",  desc = "Gana todas las carreras del juego" },
+        talkWithYoshi     = { title = "Hola, Yoshi!",         desc = "Habla con Yoshi" },
+        releaseChainChomp = { title = "Por Fin Libre",        desc = "Libera al Chomp Cadenas" },
+        swimmer           = { title = "Buceo sin Metal",      desc = "Consigue la estrella de Mario Metalico sin usar la Gorra Metalica" },
+        cheater           = { title = "Pillado Haciendo Trampas", desc = "Activa un truco" },
+        watchEndCredits   = { title = "Creditos Finales",     desc = "Llega al final del juego" },
+    }
+}

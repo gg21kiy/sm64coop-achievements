@@ -1,0 +1,77 @@
+-- Basque / Euskara (eu) Localization for Achievements Mod
+LANG_DATA = LANG_DATA or {}
+
+LANG_DATA["eu"] = {
+    name = "Euskara",
+    ui = {
+        menu_unavailable = "Lorpenen menua ez dago erabilgarri une honetan",
+        pause_open = "Sakatu %s Lorpenak irekitzeko",
+        pause_unavailable = "Lorpenak ez daude erabilgarri",
+        header = "LORPENAK  %d/%d",
+        locked_title = "???",
+        locked_desc = "Blokeatuta",
+        page = "Orria %d/%d",
+        controls = "L/R, Gurutzea edo stick = orria, A = iragazi, B/Start = itxi",
+        show_all = "Denak erakutsi",
+        unlocked_only = "Desblokeatuak soilik",
+        reset_msg = "Uneko partidako lorpenak berrabiarazi dira",
+        cmd_help = "/achievements - menua ireki edo itxi\n/achievements reset - uneko partida berrabiarazi\n/achievements lang [en|es|ca|gl|eu|pt|fr|de] - hizkuntza aldatu",
+        chat_notify = "\\#ffff00\\[Lorpenak]\\#ffffff Idatzi \\#00ffff/achievements\\#ffffff txatean menua irekitzeko.",
+        lang_changed = "\\#ffff00\\[Lorpenak]\\#ffffff Hizkuntza aldatuta: Euskara",
+    },
+    achievements = {
+        __preview = { title = "Lorpenaren aurrebista", desc = "Pantailako posizio proba" },
+        -- Stars
+        get1Stars   = { title = "Lehenengo Izarra!",        desc = "Lortu zure lehenengo izarra" },
+        get8Stars   = { title = "Boterea Handitzen",        desc = "Lortu 8 izar" },
+        get30Stars  = { title = "Laurden Bat Osatuta",      desc = "Lortu 30 izar" },
+        get31Stars  = { title = "Beste Bat Zorterako",      desc = "Lortu 31 izar" },
+        get50Stars  = { title = "Mende Erdia",              desc = "Lortu 50 izar" },
+        get70Stars  = { title = "Aurrera Egiten",           desc = "Lortu 70 izar" },
+        get120Stars = { title = "Izar Bildumagilea",        desc = "Lortu 120 izarrak" },
+        -- Caps
+        unlockWingCap   = { title = "Hegan Egitera",        desc = "Desblokeatu Txano Hegalduna" },
+        unlockMetalCap  = { title = "Botere Solidoa",       desc = "Desblokeatu Metalezko Txanoa" },
+        unlockVanishCap = { title = "Orain Ikusten Nauzu",  desc = "Desblokeatu Txano Ikusezina" },
+        -- Ranks
+        get6MainStars    = { title = "Sei Izarren Erronka",       desc = "Lortu maila bateko 6 izar nagusiak" },
+        get100CoinStar   = { title = "Txanpon Biltzailea",        desc = "Lortu 100 txanponeko izar bat" },
+        getAllCoins      = { title = "Txanponen Maisua",          desc = "Lortu maila bateko txanpon guztiak" },
+        getBasementStars = { title = "Sotoko Esploratzailea",     desc = "Lortu sotoko izar nagusi guztiak" },
+        getFloor1Stars   = { title = "Lehenengo Solairuko Txapelduna", desc = "Lortu lehenengo solairuko izar nagusi guztiak" },
+        getFloor2Stars   = { title = "Bigarren Solairuko Txapelduna",  desc = "Lortu bigarren solairuko izar nagusi guztiak" },
+        getFloor3Stars   = { title = "Hirugarren Solairuko Txapelduna",desc = "Lortu hirugarren solairuko izar nagusi guztiak" },
+        getCastleStars   = { title = "Gazteluko Sekretuak",       desc = "Aurkitu gazteluko izar sekretu guztiak" },
+        -- Bosses
+        beatMrI          = { title = "Begiz Begi",          desc = "Garaitu Mr. I" },
+        beatWiggler      = { title = "Zomorroa Zanpatuta",  desc = "Garaitu Wiggler" },
+        beatKingBobOmb   = { title = "Bonbak Kanpora!",     desc = "Garaitu Bob-omb Erregea" },
+        beatBigBullies   = { title = "Bully Ehiztaria",     desc = "Garaitu Big Bully LLL mailan" },
+        beatEyerok       = { title = "Eskuak Behera",       desc = "Garaitu Eyerok" },
+        beatKingWhomp    = { title = "Kolpea Erregeari",    desc = "Garaitu Whomp Erregea" },
+        beatAllBoos      = { title = "Mamu Ehiztaria",      desc = "Garaitu Big Boo guztiak BBH mailan" },
+        beatFirstBowser  = { title = "Lehenengo Topaketa",  desc = "Garaitu Bowser lehenengo borrokan" },
+        beatSecondBowser = { title = "Gehiagoren Bila",     desc = "Garaitu Bowser bigarren borrokan" },
+        beatFinalBowser  = { title = "Azken Lehia",         desc = "Garaitu Bowser azken borrokan" },
+        beatGame120Stars = { title = "Benetako Amaiera",    desc = "Garaitu azken Bowser 120 izarrak lortu ondoren" },
+        -- Deaths
+        deathByFalling  = { title = "Kontuz Non Zapaltzen Duzun", desc = "Galdu bizitza bat erorita" },
+        deathBySand     = { title = "Egoera Hondartsua",    desc = "Galdu bizitza bat harea mugikorretan" },
+        deathByCrushing = { title = "Zanpatuta!",           desc = "Hil zanpatuta eta galdu bizitza bat" },
+        deathByBowser   = { title = "Bowserrek Irabazi",    desc = "Galdu bizitza bat Bowserren aurkako borrokan" },
+        deathByBoss     = { title = "Nagusiarekin Arazoak", desc = "Galdu bizitza bat nagusi baten aurka" },
+        deathByEnemy    = { title = "Mugimendu Okerra",     desc = "Galdu bizitza bat etsai arrunt baten aurka" },
+        deathByDrowning = { title = "Arnasarik Gabe",       desc = "Galdu bizitza bat itota" },
+        deathByFire     = { title = "Beroegia!",            desc = "Galdu bizitza bat suarekin edo labarekin" },
+        -- Extras
+        slide100Times     = { title = "Txirrista Aditua",   desc = "Irristatu 100 aldiz" },
+        jump1000Times     = { title = "Jauzi Makina",       desc = "Egin 1.000 jauzi" },
+        talk25Times       = { title = "Iturgin Berritsua",  desc = "Hitz egin NPCekin 25 aldiz" },
+        beatEveryRace     = { title = "Lasterketa Txapelduna", desc = "Irabazi jokoaren lasterketa guztiak" },
+        talkWithYoshi     = { title = "Kaixo, Yoshi!",      desc = "Hitz egin Yoshirekin" },
+        releaseChainChomp = { title = "Azkenean Aske",      desc = "Askatu Chain Chomp" },
+        swimmer           = { title = "Metalik Gabeko Urpekaritza", desc = "Lortu Mario Metalikoaren izarra Metalezko Txanoa erabili gabe" },
+        cheater           = { title = "Tranpatan Harrapatuta", desc = "Aktibatu truko bat" },
+        watchEndCredits   = { title = "Amaierako Kredituak",desc = "Iritsi jokoaren amaierara" },
+    }
+}

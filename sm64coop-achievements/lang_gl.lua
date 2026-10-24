@@ -1,0 +1,77 @@
+-- Galician / Galego (gl) Localization for Achievements Mod
+LANG_DATA = LANG_DATA or {}
+
+LANG_DATA["gl"] = {
+    name = "Galego",
+    ui = {
+        menu_unavailable = "O menu de logros non esta disponible agora mesmo",
+        pause_open = "Preme %s para abrir Logros",
+        pause_unavailable = "Logros non disponibles",
+        header = "LOGROS  %d/%d",
+        locked_title = "???",
+        locked_desc = "Bloqueado",
+        page = "Paxina %d/%d",
+        controls = "L/R, Cruceta ou stick = paxina, A = filtrar, B/Start = pechar",
+        show_all = "Mostrar todos",
+        unlocked_only = "So desbloqueados",
+        reset_msg = "Reiniciaronse os logros da partida actual",
+        cmd_help = "/achievements - abre ou pecha o menu\n/achievements reset - reinicia a partida actual\n/achievements lang [en|es|ca|gl|eu|pt|fr|de] - cambia o idioma",
+        chat_notify = "\\#ffff00\\[Logros]\\#ffffff Escribe \\#00ffff/achievements\\#ffffff no chat para abrir o menu.",
+        lang_changed = "\\#ffff00\\[Logros]\\#ffffff Idioma cambiado a: Galego",
+    },
+    achievements = {
+        __preview = { title = "Vista previa de logro", desc = "Proba de posicion na pantalla" },
+        -- Stars
+        get1Stars   = { title = "Primeira Estrela!",        desc = "Consegue a tua primeira estrela" },
+        get8Stars   = { title = "Poder en Aumento",         desc = "Consegue 8 estrelas" },
+        get30Stars  = { title = "Un Cuarto Completado",     desc = "Consegue 30 estrelas" },
+        get31Stars  = { title = "Unha Mais por Sorte",      desc = "Consegue 31 estrelas" },
+        get50Stars  = { title = "Medio Seculo",             desc = "Consegue 50 estrelas" },
+        get70Stars  = { title = "Facendo Progreso",         desc = "Consegue 70 estrelas" },
+        get120Stars = { title = "Coleccionista Estelar",    desc = "Consegue as 120 estrelas" },
+        -- Caps
+        unlockWingCap   = { title = "A Voar",               desc = "Desbloquea a Gorra Alada" },
+        unlockMetalCap  = { title = "Poder Solido",         desc = "Desbloquea a Gorra Metalica" },
+        unlockVanishCap = { title = "Agora Vesme...",       desc = "Desbloquea a Gorra Invisible" },
+        -- Ranks
+        get6MainStars    = { title = "Desafio de Seis Estrelas",  desc = "Consegue as 6 estrelas principais dun nivel" },
+        get100CoinStar   = { title = "Acaparador de Moedas",      desc = "Consegue unha estrela de 100 moedas" },
+        getAllCoins      = { title = "Mestre das Moedas",         desc = "Consegue todas as moedas dun nivel" },
+        getBasementStars = { title = "Explorador do Soto",        desc = "Consegue todas as estrelas principais do soto" },
+        getFloor1Stars   = { title = "Campion do Primeiro Andar", desc = "Consegue todas as estrelas principais do primeiro andar" },
+        getFloor2Stars   = { title = "Campion do Segundo Andar",  desc = "Consegue todas as estrelas principais do segundo andar" },
+        getFloor3Stars   = { title = "Campion do Terceiro Andar", desc = "Consegue todas as estrelas principais do terceiro andar" },
+        getCastleStars   = { title = "Segredos do Castelo",       desc = "Atopa todas as estrelas segredas do castelo" },
+        -- Bosses
+        beatMrI          = { title = "Ollo por Ollo",        desc = "Derrota a Mr. I" },
+        beatWiggler      = { title = "Bicho Esmagado",       desc = "Derrota a Wiggler" },
+        beatKingBobOmb   = { title = "Bombas Fora!",         desc = "Derrota ao Rei Bob-omb" },
+        beatBigBullies   = { title = "Cazador de Bullies",   desc = "Derrota ao Gran Bully en LLL" },
+        beatEyerok       = { title = "Mans Abaixo",          desc = "Derrota a Eyerok" },
+        beatKingWhomp    = { title = "Golpe ao Rei",         desc = "Derrota ao Rei Whomp" },
+        beatAllBoos      = { title = "Cazapantasmas",        desc = "Derrota a todos os Gran Boo en BBH" },
+        beatFirstBowser  = { title = "Primeiro Encontro",    desc = "Derrota a Bowser na primeira batalla" },
+        beatSecondBowser = { title = "A por Mais",           desc = "Derrota a Bowser na segunda batalla" },
+        beatFinalBowser  = { title = "Duelo Final",          desc = "Derrota a Bowser na batalla final" },
+        beatGame120Stars = { title = "Completado Real",      desc = "Derrota ao Bowser final tras conseguir as 120 estrelas" },
+        -- Deaths
+        deathByFalling  = { title = "Mira Onde Pisas",      desc = "Perde unha vida ao caer ao baleiro" },
+        deathBySand     = { title = "Situacion Movediza",   desc = "Perde unha vida en areas movedizas" },
+        deathByCrushing = { title = "Esmagado!",            desc = "Morre esmagado e perde unha vida" },
+        deathByBowser   = { title = "Bowser Gana",          desc = "Perde unha vida durante unha batalla contra Bowser" },
+        deathByBoss     = { title = "Problemas co Xefe",    desc = "Perde unha vida contra un xefe" },
+        deathByEnemy    = { title = "Mal Movemento",        desc = "Perde unha vida contra un inimigo normal" },
+        deathByDrowning = { title = "Sen Alento",           desc = "Perde unha vida afogado" },
+        deathByFire     = { title = "Queima Demasiado!",    desc = "Perde unha vida por lume ou lava" },
+        -- Extras
+        slide100Times     = { title = "Experto en Tobogans", desc = "esvara 100 veces" },
+        jump1000Times     = { title = "Maquina de Saltar",   desc = "Realiza 1.000 saltos" },
+        talk25Times       = { title = "Fontaneiro Falador",  desc = "Fala con NPCs 25 veces" },
+        beatEveryRace     = { title = "Campion de Carreiras",desc = "Gana todas as carreiras do xogo" },
+        talkWithYoshi     = { title = "Ola, Yoshi!",         desc = "Fala con Yoshi" },
+        releaseChainChomp = { title = "Por Fin Libre",       desc = "Libera ao Chomp Cadeas" },
+        swimmer           = { title = "Mergullo sen Metal",  desc = "Consegue a estrela de Mario Metalico sen usar a Gorra Metalica" },
+        cheater           = { title = "Pillado Facendo Trampas", desc = "Activa un truco" },
+        watchEndCredits   = { title = "Creditos Finais",     desc = "Chega ao final do xogo" },
+    }
+}
