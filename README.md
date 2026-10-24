@@ -1,6 +1,6 @@
 <div align="center"><h1>🏆 SM64 Coop Achievements</h1><h3>Moon64-style achievements for SM64CoopDX</h3>
   <p>
-  <a href="https://github.com/gg21kiy/SM64Coop-Achievements/releases/latest"><img src="https://img.shields.io/badge/Version-2.0.0-blue?style=for-the-badge" alt="Version"></a>
+  <a href="https://github.com/gg21kiy/SM64Coop-Achievements/releases/latest"><img src="https://img.shields.io/badge/Version-2.1.0-blue?style=for-the-badge" alt="Version"></a>
     <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" alt="Lua" />
 <a href="https://github.com/coop-deluxe/sm64coopdx"><img src="https://img.shields.io/badge/SM64CoopDX-Compatible-brightgreen?style=for-the-badge&logo=nintendo&logoColor=white" alt="SM64CoopDX Compatible"></a>
 <a href="https://github.com/djoslin0/sm64ex-coop"><img src="https://img.shields.io/badge/SM64ExCoop-Not%20Compatible-critical?style=for-the-badge&logo=nintendo&logoColor=white" alt="SM64ExCoop Not Compatible"></a>
@@ -67,9 +67,6 @@ Download the latest version from [Releases](https://github.com/gg21kiy/sm64coop-
 ## 🎮 How to use
 
 ### Open the achievements menu
-
-> [!WARNING]
-> Currently, the option to open the menu via the controller is not enabled; you can only open the achievements menu with the command /achievements or /achievements menu via chat. 
 
 | Method | How |
 |---|---|
