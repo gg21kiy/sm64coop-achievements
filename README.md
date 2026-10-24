@@ -4,8 +4,8 @@
     <a href="https://github.com/gg21kiy/sm64coop-achievements?tab=readme-ov-file#change-language"><img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" alt="Lua" />
 <a href="https://github.com/coop-deluxe/sm64coopdx"><img src="https://img.shields.io/badge/SM64CoopDX-Compatible-brightgreen?style=for-the-badge&logo=nintendo&logoColor=white" alt="SM64CoopDX Compatible"></a>
 <a href="https://github.com/djoslin0/sm64ex-coop"><img src="https://img.shields.io/badge/SM64ExCoop-Not%20Compatible-critical?style=for-the-badge&logo=nintendo&logoColor=white" alt="SM64ExCoop Not Compatible"></a>
-  <a href="#-achievements"><img src="https://img.shields.io/badge/Achievements-46-gold?style=for-the-badge" alt="46 Achievements"></a>
-  <img src="https://img.shields.io/badge/Languages-7-orange?style=for-the-badge" alt="7 Languages Supported">
+  <a href="#-achievements"><img src="https://img.shields.io/badge/Achievements-46-gold?style=for-the-badge" alt="46 Achievements">
+  <a href="#-change-language"><img src="https://img.shields.io/badge/Languages-7-orange?style=for-the-badge" alt="7 Languages Supported">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License"></a>
 </p><br><img src="Screenshots/popup.jpg" alt="SM64 Coop Achievements" width="700"><p>
   <em>An achievement system for SM64CoopDX inspired by Moon64.</em>
