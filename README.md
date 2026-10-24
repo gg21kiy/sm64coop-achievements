@@ -201,6 +201,14 @@ Resets the achievements of the **current save file** only.
 
 ---
 
+## 🛠️ Achievements API (For Mod Developers)
+
+Are you a mod developer interested in adding your own custom achievements, icons, and unlock conditions to your mod, or creating an `[AM]` achievement addon pack? 
+
+👉 **[Read the full Achievements API Documentation here (API.md)](./API.md)**
+
+---
+
 ## 🖼️ Icons
 
 For copyright reasons, **this repository does not ship any icon images**. To get icons in the popup and in the menu:
