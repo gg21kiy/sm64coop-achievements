@@ -223,7 +223,7 @@ Are you a mod developer interested in adding your own custom achievements, icons
 For copyright reasons, **this repository does not ship any icon images**. To get icons in the popup and in the menu:
 
 1. Create (or obtain with permission) your own `.png` images.
-2. Name them exactly as listed in [`SM64Coop Achievements Icon Naming Guide`](textures/SM64%20Achievement%20Icon%20Naming%20Guide.txt) (for example `stars_1.png`, `bosses_big_bob.png`, `deaths_falling.png`, `cheater.png`...).
+2. Name them exactly as listed in [`SM64Coop Achievements Icon Naming Guide`](https://github.com/gg21kiy/sm64coop-achievements/blob/main/sm64coop-achievements/textures/SM64Coop%20Achievements%20Icon%20Naming%20Guide.txt) (for example `stars_1.png`, `bosses_big_bob.png`, `deaths_falling.png`, `cheater.png`...).
 3. Drop them inside the mod's `textures/` folder.
 
 Please **only use images you own or have the right to use**.
